@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "project": "playwright-patterns",
+  "//shape": "A reference repo of Playwright patterns. Everything it contains is a browser spec, so e2e is the only tier with files and that is the honest shape rather than a gap.",
+  "//unit": "Omitted rather than declared empty: whether this repo should grow a unit tier for its helpers is a decision nobody has made.",
+  "tiers": {
+    "e2e": {
+      "include": ["tests/**/*.spec.ts"]
+    }
+  }
+}
